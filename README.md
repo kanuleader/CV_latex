@@ -1,2 +1,4 @@
-# resume-latex
-Create your Professional/Educational resume using LaTeX
+resume using LaTeX
+
+- install texmaker on linx
+- build to make resume with pdf' format
