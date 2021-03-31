@@ -1,4 +1,4 @@
-resume using LaTeX
+CV using LaTeX
 
 - install texmaker on linux
-- build to make resume with pdf' format
+- build to make Cv with pdf' format
