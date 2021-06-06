@@ -23,7 +23,7 @@
 \end{rSection}
 
 \begin{rSection}{Projects}
-{\bf Deep learning based image recovery solution to achieve yield improvements from a to z}
+{\bf Deep learning based image recovery solution to achieve yield improvements}
 \\ As the pixels of the sensor become finer, the production yield decreases. Accordingly, a deep learning-based image restoration algorithm was developed to bring dead pixels to life.
 
 {\bf Deep learning based segmentation solution on mobile devices}
@@ -57,17 +57,27 @@ Version Control & Github, Docker Hub
 % \newpage
 \begin{rSection}{Work Experience}
 
-\begin{rSubsection}{Samsung Electronics, South Korea}{August 2016 - Present}{Engineer}{}
- \item As part of the application of the dual photodiode sensor, a bokeh solution was developed by fusion of segmentation technology and the depth map using phase information. The architecture of segmentation was designed from the previously proposed Deeplab. And an attempt was made to apply the quantization aware training methodology to highly optimize the architecture.
+\begin{center}{Samsung Electronics, South Korea(January 2015 - Present)}{} {} {}
+\noindent\rule{17cm}{0.1pt}
+\end{center}
+
+\begin{rSubsection}{$\rangle$ System LSI division $\rangle$ Sensor product development team}{December 2020 - Present}{AI Softerware Engineer}{}
  \item Image recovery solution to defect data has been developed, and released to industrial field. The following process was involved in commercializing AI solutions for the first time as a practical engineer: find points where deep learning technology can be applied, define problem statements, create scenarios for the entire system using SOTA technology in deep learning, and build optimized systems using tensorflow lite and accelerators in a mobile environment. This is the first case of mass production to apply self-developed deep learning technology.
 \end{rSubsection}
  
-\begin{rSubsection}{Samsung Electronics Intership Program,  South Korea}{January 2015 - January 2015}{Intern}{}
- \item It was time to understand the overall flow of image processing methods that are essential for mobile image sensors.
+\begin{rSubsection}{$\rangle$ System LSI division $\rangle$ Multimedia development team}{December 2018 - December 2020}{AI Softerware Engineer}{}
+ \item As part of the application of the dual photodiode sensor, a bokeh solution was developed by fusion of segmentation technology and the depth map using phase information. The architecture of segmentation was designed from the previously proposed Deeplab. In addition, deeplabv3 uses MobileNet as its backbone, resulting in a lightweight deep neural network. It significantly reduces the number of parameters when compared to networks with regular convolutions with the same depth in the network. And an attempt was made to apply the quantization aware training(QAT) methodology to highly optimize the architecture.
+ \item With the prosperity of deep learning, there was a movement to replace the existing remosaic algorithm to deep learning methods. It is a converter to bayer from image sensor overlaid with non-bayer CFA.
+  \item In order to develop our own deep learning technology, we started with the development environment configuration for the first time. We have configured and deployed a Docker environment that can be used to train deep learning models using multiple GPUs in a Linux environment. We also created a simple mobile-oriented prototype to construct the entire development scenario.
 \end{rSubsection}
 
-\begin{rSubsection}{KAIST, South Korea}{September 2014 - August 2016}{M.S Candidate}{}
- \item Face detection and tracking algorithms were used to design systems that automatically detect human faces in surveillance environments. In particular, deep learning-based face detector was ported to the C level and integrated into the system for privacy protection in large-scale surveillance video.
+\begin{rSubsection}{$\rangle$ System LSI division $\rangle$ Sensor product development team}{August 2016 - December 2018}{Engineer}{}
+ \item We developed a dual camera fusion algorithm using wide and tele. For this fusion algorithm to work, it must be assumed that two input images are registered.
+ \item The sensor image suffers from image quality degradation due to noise in a low-light environment. To alleviate this, we designed a multi-frame-based denoising algorithm by matching multiple images.
+\end{rSubsection}
+
+\begin{rSubsection}{Samsung Electronics Intership Program}{January 2015 - January 2015}{Intern}{}
+ \item It was time to understand the overall flow of image processing methods that are essential for mobile image sensors.
 \end{rSubsection}
 
 \end{rSection}
